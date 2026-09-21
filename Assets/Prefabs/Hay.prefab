@@ -1,0 +1,490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1573999374620947794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 732782927656361379}
+  - component: {fileID: 2184488234228316036}
+  - component: {fileID: 8158525041426885709}
+  m_Layer: 0
+  m_Name: HayRoll_Straw02 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &732782927656361379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573999374620947794}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.07, y: 0, z: 2.129}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5447906084137504308}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2184488234228316036
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573999374620947794}
+  m_Mesh: {fileID: -6585664298546382075, guid: 33fcc2cdb90221442bcc80a10981ffa9, type: 3}
+--- !u!23 &8158525041426885709
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573999374620947794}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b14ada589569d444baae7c98e4cd6fa0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3127392798681709751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566146969701054463}
+  m_Layer: 0
+  m_Name: Hay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1566146969701054463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3127392798681709751}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.494, y: 0.14597, z: -8.05421}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8591735929302321489}
+  - {fileID: 5327385790045209006}
+  - {fileID: 1995657857457600962}
+  - {fileID: 299911933298626577}
+  - {fileID: 4466085550228493482}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &577970737457937463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1566146969701054463}
+    m_Modifications:
+    - target: {fileID: 533410122686936732, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_Name
+      value: Props Pack - Hay Bale (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.38597
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.46421
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25128517
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9679131
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -150.893
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.311
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+--- !u!4 &299911933298626577 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+  m_PrefabInstance: {fileID: 577970737457937463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1702040966980982244
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1566146969701054463}
+    m_Modifications:
+    - target: {fileID: 533410122686936732, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_Name
+      value: Props Pack - Hay Bale (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.434
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.38597
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.0442095
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25128517
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9679131
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -150.893
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.311
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 8855353200668006369, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+    - {fileID: 4772360004465892193, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+    - {fileID: 3100220839558733994, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+    - {fileID: 4591933013332734447, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6630429524912036816, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 732782927656361379}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+--- !u!4 &1995657857457600962 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+  m_PrefabInstance: {fileID: 1702040966980982244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5447906084137504308 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6630429524912036816, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+  m_PrefabInstance: {fileID: 1702040966980982244}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3591167875520772236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1566146969701054463}
+    m_Modifications:
+    - target: {fileID: 533410122686936732, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_Name
+      value: Props Pack - Hay Bale (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3102665
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.14596976
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 17.038233
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25128517
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9679131
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -150.893
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402138285667940135, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402138285667940135, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.27
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+--- !u!4 &4466085550228493482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+  m_PrefabInstance: {fileID: 3591167875520772236}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5026703437609414024
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1566146969701054463}
+    m_Modifications:
+    - target: {fileID: 533410122686936732, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_Name
+      value: Props Pack - Hay Bale (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.38597
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.7857904
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25128517
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9679131
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -150.893
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.311
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+--- !u!4 &5327385790045209006 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+  m_PrefabInstance: {fileID: 5026703437609414024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8869601199287756151
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1566146969701054463}
+    m_Modifications:
+    - target: {fileID: 533410122686936732, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_Name
+      value: Props Pack - Hay Bale
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.434
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.38597
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.555231
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.25128517
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9679131
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -150.893
+      objectReference: {fileID: 0}
+    - target: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4173367109842935363, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.311
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+--- !u!4 &8591735929302321489 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 877319030924012582, guid: 92a930aaa0f71ff46ae3d40fdde093e4, type: 3}
+  m_PrefabInstance: {fileID: 8869601199287756151}
+  m_PrefabAsset: {fileID: 0}
